@@ -4,7 +4,7 @@ import { easing } from "maath";
 import { useSnapshot } from "valtio";
 import state from "../store";
 
-const CamerRig = ({ children }) => {
+const CameraRig = ({ children }) => {
   const group = useRef();
   const snap = useSnapshot(state);
 
@@ -37,4 +37,4 @@ const CamerRig = ({ children }) => {
   return <group ref={group}>{children}</group>;
 };
 
-export default CamerRig;
+export default CameraRig;
