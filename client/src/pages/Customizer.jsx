@@ -56,24 +56,27 @@ const Customizer = () => {
 
   const handleActiveFilterTab = (tabName) => {
     switch (tabName) {
-      case "logoshirt":
-        state.isLogoTexture = !activeFilterTab[tabName];
+      case "logoShirt":
+          state.isLogoTexture = !activeFilterTab[tabName];
         break;
-      case "stylishshirt":
-        state.isFullTexture = !activeFilterTab[tabName];
+      case "stylishShirt":
+          state.isFullTexture = !activeFilterTab[tabName];
+        break;
       default:
         state.isLogoTexture = true;
         state.isFullTexture = false;
+        break;
     }
 
     // after setting the state, activeFilterTab is updated
+
     setActiveFilterTab((prevState) => {
       return {
         ...prevState,
         [tabName]: !prevState[tabName]
       }
     })
-  };
+  }
 
   const readFile = (type) => {
     reader(file).then((result) => {
