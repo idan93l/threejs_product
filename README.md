@@ -15,3 +15,10 @@ https://aitshirt.onrender.com/
 - Deactivate the logo and / or the full texture.
 - Download the resulting t-shirt model image.
 - Fully responsive.
+
+
+## Screenshots
+
+#### Desktop
+
+![Desktop Screenshot](/src/assests/desktop.jpg)
