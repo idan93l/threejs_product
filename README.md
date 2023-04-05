@@ -29,3 +29,9 @@ https://aitshirt.onrender.com/
 
 
 ## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/idan93l/threejs_product.git
+```
