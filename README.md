@@ -22,3 +22,7 @@ https://aitshirt.onrender.com/
 #### Desktop
 
 ![Desktop Screenshot](/src/assests/desktop.jpg)
+
+#### Mobile
+
+![Mobile Screenshot](/src/assests/mobile.jpg)
