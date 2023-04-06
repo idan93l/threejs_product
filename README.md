@@ -35,3 +35,9 @@ Clone the project
 ```bash
   git clone https://github.com/idan93l/threejs_product.git
 ```
+
+Go to the project directory
+
+```bash
+  cd threejs_product
+```
