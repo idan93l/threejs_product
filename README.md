@@ -53,3 +53,9 @@ Start the client
 ```bash
   npm run dev
 ```
+
+Start the server
+
+```bash
+  npm run start
+```
