@@ -41,3 +41,9 @@ Go to the project directory
 ```bash
   cd threejs_product
 ```
+
+Install dependencies
+
+```bash
+  npm install
+```
