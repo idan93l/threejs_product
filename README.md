@@ -25,7 +25,7 @@ https://aitshirt.onrender.com/
 
 #### Mobile
 
-![Mobile Screenshot](/src/assests/mobile.jpg)
+![Mobile Screenshot](/client/src/assests/mobile.jpg)
 
 
 ## Run Locally
