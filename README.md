@@ -21,7 +21,7 @@ https://aitshirt.onrender.com/
 
 #### Desktop
 
-![Desktop Screenshot](/src/assests/desktop.jpg)
+![Desktop Screenshot](/client/src/assets/desktop.jpg)
 
 #### Mobile
 
