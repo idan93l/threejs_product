@@ -64,3 +64,5 @@ Start the server
 ## Tech Stack
 
 **Client:** React, Tailwind, Three.js, Framer-motion, Maath, Valtio.
+
+**Server:** Node.js, Express, Openai.
