@@ -8,7 +8,7 @@ const ColorPicker = ({setActiveEditorTab}) => {
 
   return (
     <div className="absolute left-full ml-3">
-      <button className="absolute -top-6 -right-4">X</button>
+      <button className="absolute -top-6 -right-4" onClick={() => setActiveEditorTab("")}>X</button>
       <SketchPicker
         color={snap.color}
         disableAlpha
