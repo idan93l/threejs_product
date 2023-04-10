@@ -1,4 +1,5 @@
 import CustomButton from "./CustomButton";
+import { IoClose } from "react-icons/io5";
 
 const FilePicker = ({ file, setFile, readFile, setActiveEditorTab }) => {
   return (
