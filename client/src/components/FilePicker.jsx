@@ -4,7 +4,11 @@ import { IoClose } from "react-icons/io5";
 const FilePicker = ({ file, setFile, readFile, setActiveEditorTab }) => {
   return (
     <div className="filepicker-container">
-      <button className="absolute -top-7 -right-7 h-6 w-6 flex justify-center items-center rounded-full bg-red-600 text-2xl text-white border-2"></button>
+      <button
+        className="absolute -top-7 -right-7 h-6 w-6 flex justify-center items-center rounded-full bg-red-600 text-2xl text-white border-2"
+        onClick={() => setActiveEditorTab("")}
+      >
+      </button>
       <div className="flex-1 flex flex-col">
         <input
           id="file-upload"
