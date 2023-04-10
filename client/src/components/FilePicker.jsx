@@ -1,6 +1,6 @@
 import CustomButton from "./CustomButton";
 
-const FilePicker = ({ file, setFile, readFile }) => {
+const FilePicker = ({ file, setFile, readFile, setActiveEditorTab }) => {
   return (
     <div className="filepicker-container">
       <div className="flex-1 flex flex-col">
