@@ -34,7 +34,7 @@ const Customizer = () => {
       case "colorpicker":
         return <ColorPicker setActiveEditorTab={setActiveEditorTab}/>;
       case "filepicker":
-        return <FilePicker file={file} setFile={setFile} readFile={readFile} />;
+        return <FilePicker file={file} setFile={setFile} readFile={readFile} setActiveEditorTab={setActiveEditorTab} />;
       case "aipicker":
         return (
           <AIPicker
