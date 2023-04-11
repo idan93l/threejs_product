@@ -1,6 +1,6 @@
 import CustomButton from "./CustomButton";
 
-const AIPicker = ({ prompt, setPrompt, generatingImg, handleSubmit }) => {
+const AIPicker = ({ prompt, setPrompt, generatingImg, handleSubmit, setActiveEditorTab }) => {
   return (
     <div className="aipicker-container ">
       <textarea
