@@ -8,6 +8,7 @@ const FilePicker = ({ file, setFile, readFile, setActiveEditorTab }) => {
         className="absolute -top-7 -right-7 h-6 w-6 flex justify-center items-center rounded-full bg-red-600 text-2xl text-white border-2"
         onClick={() => setActiveEditorTab("")}
       >
+        <IoClose />
       </button>
       <div className="flex-1 flex flex-col">
         <input
