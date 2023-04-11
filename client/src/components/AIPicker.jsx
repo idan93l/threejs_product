@@ -9,7 +9,11 @@ const AIPicker = ({
 }) => {
   return (
     <div className="aipicker-container ">
-      <button className="absolute -top-7 -right-7 h-6 w-6 flex justify-center items-center rounded-full bg-red-600 text-2xl text-white border-2"></button>
+      <button
+        className="absolute -top-7 -right-7 h-6 w-6 flex justify-center items-center rounded-full bg-red-600 text-2xl text-white border-2"
+        onClick={() => setActiveEditorTab("")}
+      >
+      </button>
       <textarea
         placeholder="Ask AI..."
         rows={5}
