@@ -2,6 +2,7 @@ import { SketchPicker } from "react-color";
 import { useSnapshot } from "valtio";
 import { IoClose } from "react-icons/io5";
 import { AnimatePresence, motion } from "framer-motion";
+import { fadeAnimation } from "../config/motion";
 import state from "../store";
 
 const ColorPicker = ({ setActiveEditorTab }) => {
