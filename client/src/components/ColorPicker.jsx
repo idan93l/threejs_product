@@ -9,6 +9,7 @@ const ColorPicker = ({ setActiveEditorTab }) => {
   const snap = useSnapshot(state);
 
   return (
+    <AnimatePresence>
       <div
         className="absolute left-full ml-3"
       >
@@ -24,6 +25,7 @@ const ColorPicker = ({ setActiveEditorTab }) => {
           onChange={(color) => (state.color = color.hex)}
         />
       </div>
+    </AnimatePresence>
   );
 };
 
