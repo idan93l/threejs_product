@@ -10,7 +10,7 @@ const ColorPicker = ({ setActiveEditorTab }) => {
 
   return (
     <AnimatePresence>
-      <div
+      <motion.div
         className="absolute left-full ml-3"
       >
         <button
@@ -24,7 +24,7 @@ const ColorPicker = ({ setActiveEditorTab }) => {
           disableAlpha
           onChange={(color) => (state.color = color.hex)}
         />
-      </div>
+      </motion.div>
     </AnimatePresence>
   );
 };
