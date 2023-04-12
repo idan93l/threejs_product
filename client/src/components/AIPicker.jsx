@@ -14,6 +14,7 @@ const AIPicker = ({
         className="absolute -top-7 -right-7 h-6 w-6 flex justify-center items-center rounded-full bg-red-600 text-2xl text-white border-2"
         onClick={() => setActiveEditorTab("")}
       >
+        <IoClose />
       </button>
       <textarea
         placeholder="Ask AI..."
