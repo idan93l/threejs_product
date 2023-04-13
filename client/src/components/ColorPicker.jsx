@@ -12,6 +12,7 @@ const ColorPicker = ({ setActiveEditorTab }) => {
     <AnimatePresence>
       <motion.div
         className="absolute left-full ml-3"
+        {...fadeAnimation}
       >
         <button
           className="absolute -top-7 -right-7 h-6 w-6 flex justify-center items-center rounded-full bg-red-600 text-2xl text-white border-2"
