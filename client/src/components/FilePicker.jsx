@@ -1,5 +1,6 @@
 import CustomButton from "./CustomButton";
 import { AnimatePresence, motion } from "framer-motion";
+import { fadeAnimation } from "../config/motion";
 import { IoClose } from "react-icons/io5";
 
 const FilePicker = ({ file, setFile, readFile, setActiveEditorTab }) => {
