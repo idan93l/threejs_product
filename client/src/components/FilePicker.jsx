@@ -5,6 +5,7 @@ import { IoClose } from "react-icons/io5";
 
 const FilePicker = ({ file, setFile, readFile, setActiveEditorTab }) => {
   return (
+    <AnimatePresence>
     <div className="filepicker-container">
       <button
         className="absolute -top-7 -right-7 h-6 w-6 flex justify-center items-center rounded-full bg-red-600 text-2xl text-white border-2"
@@ -41,6 +42,7 @@ const FilePicker = ({ file, setFile, readFile, setActiveEditorTab }) => {
         />
       </div>
     </div>
+    </AnimatePresence>
   );
 };
 
