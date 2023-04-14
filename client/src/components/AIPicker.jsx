@@ -1,4 +1,5 @@
 import CustomButton from "./CustomButton";
+import { AnimatePresence, motion } from "framer-motion";
 import { IoClose } from "react-icons/io5";
 
 const AIPicker = ({
