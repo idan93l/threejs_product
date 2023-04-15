@@ -28,6 +28,7 @@ const AIPicker = ({
           <ScaleLoader
             color={snap.color}
             size={200}
+            height={137}
           />
         ) : (
           <textarea
