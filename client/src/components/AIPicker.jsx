@@ -2,6 +2,7 @@ import CustomButton from "./CustomButton";
 import { AnimatePresence, motion } from "framer-motion";
 import { fadeAnimation } from "../config/motion";
 import { IoClose } from "react-icons/io5";
+import ClipLoader from "react-spinners/ClipLoader";
 
 const AIPicker = ({
   prompt,
