@@ -4,7 +4,7 @@ import state from "../store";
 import { AnimatePresence, motion } from "framer-motion";
 import { fadeAnimation } from "../config/motion";
 import { IoClose } from "react-icons/io5";
-import HashLoader from "react-spinners/HashLoader";
+import ScaleLoader from "react-spinners/ScaleLoader";
 
 const AIPicker = ({
   prompt,
@@ -24,22 +24,18 @@ const AIPicker = ({
         >
           <IoClose />
         </button>
-          {generatingImg ? (
-            <HashLoader
-              color={snap.color}
-              size={120}
-              aria-label="Loading Spinner"
-              data-testid="loader"
-            />
-          ) : (
-            <textarea
-              placeholder="Ask AI..."
-              rows={5}
-              value={prompt}
-              onChange={(e) => setPrompt(e.target.value)}
-              className="aipicker-textarea"
-            />
-          )}
+        {generatingImg ? (
+          <ScaleLoader
+          />
+        ) : (
+          <textarea
+            placeholder="Ask AI..."
+            rows={5}
+            value={prompt}
+            onChange={(e) => setPrompt(e.target.value)}
+            className="aipicker-textarea"
+          />
+        )}
         <div className="flex flex-wrap gap-3">
           {generatingImg ? (
             <CustomButton
