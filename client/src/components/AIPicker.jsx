@@ -1,8 +1,9 @@
 import CustomButton from "./CustomButton";
+import { useSnapshot } from "valtio";
 import { AnimatePresence, motion } from "framer-motion";
 import { fadeAnimation } from "../config/motion";
 import { IoClose } from "react-icons/io5";
-import ClipLoader from "react-spinners/ClipLoader";
+import HashLoader from "react-spinners/HashLoader"
 
 const AIPicker = ({
   prompt,
@@ -27,8 +28,8 @@ const AIPicker = ({
           onChange={(e) => setPrompt(e.target.value)}
           className="aipicker-textarea"
         />
-        <ClipLoader
-          size={150}
+        <HashLoader
+          size={120}
           aria-label="Loading Spinner"
           data-testid="loader"
         />
