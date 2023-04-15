@@ -1,5 +1,6 @@
 import CustomButton from "./CustomButton";
 import { useSnapshot } from "valtio";
+import state from "../store";
 import { AnimatePresence, motion } from "framer-motion";
 import { fadeAnimation } from "../config/motion";
 import { IoClose } from "react-icons/io5";
