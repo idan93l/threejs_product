@@ -13,6 +13,8 @@ const AIPicker = ({
   handleSubmit,
   setActiveEditorTab,
 }) => {
+  const snap = useSnapshot(state);
+
   return (
     <AnimatePresence>
       <motion.div className="aipicker-container" {...fadeAnimation}>
