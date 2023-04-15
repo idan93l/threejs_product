@@ -4,7 +4,7 @@ import state from "../store";
 import { AnimatePresence, motion } from "framer-motion";
 import { fadeAnimation } from "../config/motion";
 import { IoClose } from "react-icons/io5";
-import HashLoader from "react-spinners/HashLoader"
+import HashLoader from "react-spinners/HashLoader";
 
 const AIPicker = ({
   prompt,
@@ -32,6 +32,7 @@ const AIPicker = ({
           className="aipicker-textarea"
         />
         <HashLoader
+          color={snap.color}
           size={120}
           aria-label="Loading Spinner"
           data-testid="loader"
