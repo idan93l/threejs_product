@@ -27,6 +27,11 @@ const AIPicker = ({
           onChange={(e) => setPrompt(e.target.value)}
           className="aipicker-textarea"
         />
+        <ClipLoader
+          size={150}
+          aria-label="Loading Spinner"
+          data-testid="loader"
+        />
         <div className="flex flex-wrap gap-3">
           {generatingImg ? (
             <CustomButton
