@@ -26,6 +26,7 @@ const AIPicker = ({
         </button>
         {generatingImg ? (
           <ScaleLoader
+            color={snap.color}
           />
         ) : (
           <textarea
