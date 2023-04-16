@@ -32,6 +32,7 @@ const AIPicker = ({
             width={10}
             radius={10}
             margin={12}
+            aria-label="Loading Spinner"
           />
         ) : (
           <textarea
