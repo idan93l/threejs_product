@@ -31,12 +31,12 @@ const AIPicker = ({
           onChange={(e) => setPrompt(e.target.value)}
           className="aipicker-textarea"
         />
-        <HashLoader
+        {/* <HashLoader
           color={snap.color}
           size={120}
           aria-label="Loading Spinner"
           data-testid="loader"
-        />
+        /> */}
         <div className="flex flex-wrap gap-3">
           {generatingImg ? (
             <CustomButton
