@@ -30,6 +30,7 @@ const AIPicker = ({
             size={200}
             height={137}
             width={10}
+            radius={10}
           />
         ) : (
           <textarea
