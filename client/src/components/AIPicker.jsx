@@ -29,6 +29,7 @@ const AIPicker = ({
             color={snap.color}
             size={200}
             height={137}
+            width={10}
           />
         ) : (
           <textarea
